@@ -1,0 +1,5 @@
+In Python you can operate a list of numbers, strings, or so on.
+In Python you can create, edit, read and delete list.
+In Python you cam make a dictionary constituted by key-value pairs.
+In Python you can define and use functions, making codes more clear.
+In Python you can define and use classses, making objects more compact.
