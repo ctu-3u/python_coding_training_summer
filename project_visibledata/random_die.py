@@ -8,6 +8,7 @@ class Die():
 
     def throw_die(self):
         self.value = randint(1,self.faces)
+        return self.value
 
     def show_value(self):
         print(self.value)
