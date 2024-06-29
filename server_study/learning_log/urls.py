@@ -17,8 +17,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 from learning_logs import urls as learning_logs_urls
+from users import urls as users_urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("",include((learning_logs_urls,'learning_logs'),namespace='learning_logs')),
+    path("",include(learning_logs_urls,'learning_logs')),
+    path("users/",include(users_urls,'users')),
 ]
