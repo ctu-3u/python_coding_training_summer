@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 
+    # Third party apps
+    "bootstrap3",
+
     # My Apps
     "learning_logs",
     "users",
@@ -119,3 +122,10 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+LOGIN_URL = '/users/login'
+
+# django-bootstrap3 setting
+BOOTSTRAP3 = {
+    'include_jquery': True,
+}
