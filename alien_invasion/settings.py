@@ -14,3 +14,6 @@ class Settings():
         self.bullet_height = 15
         self.bullet_bolor = (60,60,60)
         self.bullets_allowed = 3
+
+        # alien settings
+        self.alien_speed_factor = 1
